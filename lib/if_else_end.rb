@@ -1,2 +1,6 @@
 # Write your solution here
-Time.now.to_i.even? ? puts "Even!" : puts "Odd!"
+if Time.now.to_i.even?
+  puts "Even!"
+else
+   puts "Odd!"
+end
